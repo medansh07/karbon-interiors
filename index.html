@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Karbon Interiors – Interior Design Firm Based in Dubai</title>
+    <meta name="description" content="Karbon Interiors is a Dubai-based interior design firm specializing in residential, commercial, and hospitality spaces. Versatile. Experienced. Personal.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cursor follower -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-ring" id="cursor-ring"></div>
+
+    <!-- Loader -->
+    <div id="page-loader" class="loader">
+        <div class="loader-content">
+            <div class="loader-letter">K</div>
+            <div class="loader-line">
+                <div class="loader-fill"></div>
+            </div>
+            <span class="loader-text">KARBON INTERIORS</span>
+        </div>
+    </div>
+
+    <!-- Fixed Corner Elements -->
+    <nav class="nav-fixed" id="navbar">
+        <div class="nav-logo" id="nav-logo">
+            <a href="#home" data-page="home">
+                <span class="logo-mark">K</span>
+                <span class="logo-brand">KARBON<br><small>INTERIORS</small></span>
+            </a>
+        </div>
+        <div class="nav-right">
+            <a href="#portfolio" class="nav-gallery-link" data-page="portfolio">Gallery</a>
+            <button class="nav-menu-btn" id="nav-toggle" aria-label="Toggle menu">
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Bottom Bar -->
+    <div class="bottom-bar" id="bottom-bar">
+        <span class="bottom-label">INTERIOR DESIGN · DUBAI</span>
+        <span class="bottom-center" id="bottom-center-text">VIEW ALL PROJECTS</span>
+        <span class="bottom-right">&copy;2026</span>
+    </div>
+
+    <!-- Full Screen Menu -->
+    <div class="fullscreen-menu" id="fullscreen-menu">
+        <div class="menu-inner">
+            <div class="menu-links">
+                <a href="#home" class="menu-link active" data-page="home" data-index="01">
+                    <span class="menu-arrow">→</span>
+                    <span class="menu-link-text">HOME</span>
+                </a>
+                <a href="#portfolio" class="menu-link" data-page="portfolio" data-index="02">
+                    <span class="menu-arrow">→</span>
+                    <span class="menu-link-text">PORTFOLIO</span>
+                </a>
+                <a href="#about" class="menu-link" data-page="about" data-index="03">
+                    <span class="menu-arrow">→</span>
+                    <span class="menu-link-text">ABOUT</span>
+                </a>
+                <a href="#contact" class="menu-link" data-page="contact" data-index="04">
+                    <span class="menu-arrow">→</span>
+                    <span class="menu-link-text">CONTACT</span>
+                </a>
+            </div>
+            <div class="menu-side">
+                <p class="menu-description">VERSATILE. EXPERIENCED. PERSONAL.<br>INTERIOR DESIGN & FIT-OUT SOLUTIONS<br>FOR EVERY SPACE IN THE UAE.</p>
+                <div class="menu-counter" id="menu-counter">01</div>
+            </div>
+        </div>
+        <div class="menu-bottom">
+            <span>DUBAI, UAE</span>
+            <div class="menu-social">
+                <a href="https://wa.me/971557753195" target="_blank" rel="noopener">WHATSAPP</a>
+                <a href="mailto:sales@karboninteriors.com">EMAIL</a>
+            </div>
+            <span>&copy;2026</span>
+        </div>
+    </div>
+
+    <!-- ==================== HOME ==================== -->
+    <section id="home" class="page active">
+
+        <!-- Hero -->
+        <div class="hero">
+            <div class="hero-typography">
+                <div class="hero-word hero-word-1">ICONIC</div>
+                <div class="hero-word hero-word-2">INTERIORS</div>
+            </div>
+            <div class="hero-image-frame">
+                <img src="images/hero_office.png" alt="Modern luxury office interior by Karbon Interiors" id="hero-img">
+            </div>
+            <div class="hero-side-left">
+                <span class="scroll-indicator">SCROLL</span>
+            </div>
+            <div class="hero-side-right">
+                <span class="slide-counter">1 — 3</span>
+            </div>
+        </div>
+
+        <!-- Statement -->
+        <div class="statement-section">
+            <div class="statement-inner">
+                <div class="statement-label">
+                    <span class="label-num">01</span>
+                    <span class="label-line"></span>
+                    <span class="label-text">THE STUDIO</span>
+                </div>
+                <h2 class="statement-heading reveal-split">
+                    We design<br>finishing touches<br>as beautifully as<br>you <em>envisioned.</em>
+                </h2>
+                <div class="statement-body">
+                    <p class="reveal-up">Stunning design with a truly personal touch from Karbon Interiors. Our designers are experienced in projects that enhance the interiors of some of UAE's most beautiful homes, offices and hotels.</p>
+                    <a href="#about" class="text-link reveal-up" data-page="about">
+                        <span>Learn about us</span>
+                        <span class="link-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Horizontal Image Strip -->
+        <div class="image-strip">
+            <div class="strip-track" id="strip-track">
+                <div class="strip-item">
+                    <img src="images/conference_room.png" alt="Conference room design">
+                    <span class="strip-caption">WORKSPACE DESIGN</span>
+                </div>
+                <div class="strip-item tall">
+                    <img src="images/hospitality_space.png" alt="Hospitality design">
+                    <span class="strip-caption">HOSPITALITY</span>
+                </div>
+                <div class="strip-item">
+                    <img src="images/residential_design.png" alt="Residential design">
+                    <span class="strip-caption">RESIDENTIAL</span>
+                </div>
+                <div class="strip-item tall">
+                    <img src="images/commercial_space.png" alt="Commercial design">
+                    <span class="strip-caption">COMMERCIAL</span>
+                </div>
+                <div class="strip-item">
+                    <img src="images/innovative_office.png" alt="Innovative office">
+                    <span class="strip-caption">FIT-OUT</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services -->
+        <div class="services-editorial">
+            <div class="services-headline">
+                <div class="services-big-text reveal-up">OUR</div>
+                <div class="services-big-text outline reveal-up">SERVICES</div>
+            </div>
+            <div class="services-content">
+                <div class="service-row">
+                    <span class="service-num">01</span>
+                    <span class="service-name">Interior Design & Fitout</span>
+                    <span class="service-line"></span>
+                </div>
+                <div class="service-row">
+                    <span class="service-num">02</span>
+                    <span class="service-name">Authority Approvals</span>
+                    <span class="service-line"></span>
+                </div>
+                <div class="service-row">
+                    <span class="service-num">03</span>
+                    <span class="service-name">Residential Design</span>
+                    <span class="service-line"></span>
+                </div>
+                <div class="service-row">
+                    <span class="service-num">04</span>
+                    <span class="service-name">Commercial Design</span>
+                    <span class="service-line"></span>
+                </div>
+                <div class="service-row">
+                    <span class="service-num">05</span>
+                    <span class="service-name">Renovations — Small or Large</span>
+                    <span class="service-line"></span>
+                </div>
+                <div class="service-row">
+                    <span class="service-num">06</span>
+                    <span class="service-name">Furniture Packages</span>
+                    <span class="service-line"></span>
+                </div>
+                <div class="service-row">
+                    <span class="service-num">07</span>
+                    <span class="service-name">General Contracting & Millwork</span>
+                    <span class="service-line"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Why Choose Us -->
+        <div class="why-editorial">
+            <div class="why-header">
+                <div class="statement-label">
+                    <span class="label-num">02</span>
+                    <span class="label-line"></span>
+                    <span class="label-text">WHY US</span>
+                </div>
+                <h2 class="why-title reveal-split">Why Choose<br><em>Karbon Interiors</em></h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-item reveal-up">
+                    <span class="why-num">01</span>
+                    <h3>Project Management</h3>
+                    <p>We understand the local costings on trades and products, stretching every dirham further offering greater value.</p>
+                </div>
+                <div class="why-item reveal-up">
+                    <span class="why-num">02</span>
+                    <h3>Mood Boards</h3>
+                    <p>We provide initial concept sketches, floor plans, and 3D rendering to visualize your dream space.</p>
+                </div>
+                <div class="why-item reveal-up">
+                    <span class="why-num">03</span>
+                    <h3>Design Consultation</h3>
+                    <p>In home & office consultation to bring your project ideas to life in a cost effective way.</p>
+                </div>
+                <div class="why-item reveal-up">
+                    <span class="why-num">04</span>
+                    <h3>Excellence</h3>
+                    <p>Quality objectives established and managed by the leadership team through our operational procedures.</p>
+                </div>
+                <div class="why-item reveal-up">
+                    <span class="why-num">05</span>
+                    <h3>Fitout Packages</h3>
+                    <p>We assist you personally for your shopping when investing on new home, office or property.</p>
+                </div>
+                <div class="why-item reveal-up">
+                    <span class="why-num">06</span>
+                    <h3>Oneness</h3>
+                    <p>We act as a team and support our teammates, clients, partners and suppliers.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sectors -->
+        <div class="sectors-editorial">
+            <div class="sectors-title-row">
+                <span class="sectors-label">KEY SECTORS</span>
+                <div class="sectors-big reveal-up">SECTORS</div>
+            </div>
+            <div class="sectors-scroll" id="sectors-scroll">
+                <div class="sector-tile">
+                    <img src="images/commercial_space.png" alt="Government sector">
+                    <div class="sector-info"><span class="sector-num">01</span><span class="sector-name">GOVERNMENT</span></div>
+                </div>
+                <div class="sector-tile">
+                    <img src="images/innovative_office.png" alt="Workplace sector">
+                    <div class="sector-info"><span class="sector-num">02</span><span class="sector-name">WORKPLACE</span></div>
+                </div>
+                <div class="sector-tile">
+                    <img src="images/education_space.png" alt="Education sector">
+                    <div class="sector-info"><span class="sector-num">03</span><span class="sector-name">EDUCATION</span></div>
+                </div>
+                <div class="sector-tile">
+                    <img src="images/conference_room.png" alt="Public spaces sector">
+                    <div class="sector-info"><span class="sector-num">04</span><span class="sector-name">PUBLIC SPACES</span></div>
+                </div>
+                <div class="sector-tile">
+                    <img src="images/hospitality_space.png" alt="Hospitality sector">
+                    <div class="sector-info"><span class="sector-num">05</span><span class="sector-name">HOSPITALITY</span></div>
+                </div>
+                <div class="sector-tile">
+                    <img src="images/healthcare_space.png" alt="Healthcare sector">
+                    <div class="sector-info"><span class="sector-num">06</span><span class="sector-name">HEALTHCARE</span></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section id="about" class="page">
+        <div class="page-splash">
+            <div class="splash-text">
+                <div class="splash-word">STUDIO</div>
+                <div class="splash-word">PROFILE</div>
+            </div>
+            <div class="splash-bottom-row">
+                <span>ICONIC</span>
+                <span>INTERIORS</span>
+            </div>
+        </div>
+
+        <div class="about-editorial">
+            <div class="about-hero-img">
+                <img src="images/designer_working.png" alt="Karbon Interiors designers at work">
+            </div>
+            <div class="about-intro">
+                <div class="statement-label">
+                    <span class="label-num">03</span>
+                    <span class="label-line"></span>
+                    <span class="label-text">ABOUT US</span>
+                </div>
+                <h2 class="about-heading reveal-split">Bring Vision<br>to <em>Life</em></h2>
+                <div class="about-body">
+                    <p class="reveal-up">From beautifully designed interiors, to functional, professional commercial fit outs, Karbon Interiors creates beautiful spaces based on your intended use.</p>
+                    <p class="reveal-up">Karbon Interiors help bring visions to life, whether your space requires a renovation, repurposing or a complete rebuild, you can trust us with the finishing touches. We collaborate with you to create designs that consider your needs and tastes.</p>
+                    <p class="reveal-up">With your imagination and our creative flair, your space designed by Karbon Interiors will exceed your expectations.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="process-editorial">
+            <h2 class="process-title reveal-up">THE PROCESS</h2>
+            <div class="process-grid">
+                <div class="process-card reveal-up">
+                    <div class="process-num">01</div>
+                    <div class="process-line"></div>
+                    <p>Give us a call to make an appointment and have an open chat about your project with us.</p>
+                </div>
+                <div class="process-card reveal-up">
+                    <div class="process-num">02</div>
+                    <div class="process-line"></div>
+                    <p>Tell us all about your space — how it will be used and how you want to feel in it.</p>
+                </div>
+                <div class="process-card reveal-up">
+                    <div class="process-num">03</div>
+                    <div class="process-line"></div>
+                    <p>We'll provide a quote — always transparent about what we can achieve within your budget.</p>
+                </div>
+                <div class="process-card reveal-up">
+                    <div class="process-num">04</div>
+                    <div class="process-line"></div>
+                    <p>Watch us create a stunning design that is both functional and beautiful.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PORTFOLIO ==================== -->
+    <section id="portfolio" class="page">
+        <div class="page-splash">
+            <div class="splash-text">
+                <div class="splash-word">PROJECT</div>
+                <div class="splash-word">PORTFOLIO</div>
+            </div>
+            <div class="splash-bottom-row">
+                <span>SPACES</span>
+                <span>TRANSFORMED</span>
+            </div>
+        </div>
+
+        <div class="portfolio-editorial">
+            <div class="portfolio-label">PROJECTS</div>
+            <div class="portfolio-masonry">
+                <div class="portfolio-item item-1 reveal-up">
+                    <span class="port-num">01</span>
+                    <div class="port-img"><img src="images/innovative_office.png" alt="Innovative Spaces Sharjah"></div>
+                    <span class="port-name">INNOVATIVE SPACES SHARJAH</span>
+                </div>
+                <div class="portfolio-item item-2 reveal-up">
+                    <span class="port-num">02</span>
+                    <div class="port-img"><img src="images/conference_room.png" alt="Bahwan Plaza Merath"></div>
+                    <span class="port-name">BAHWAN PLAZA MERATH</span>
+                </div>
+                <div class="portfolio-item item-3 reveal-up">
+                    <span class="port-num">03</span>
+                    <div class="port-img"><img src="images/hospitality_space.png" alt="Parsons Office Spaces"></div>
+                    <span class="port-name">PARSONS OFFICE SPACES</span>
+                </div>
+                <div class="portfolio-item item-4 reveal-up">
+                    <span class="port-num">04</span>
+                    <div class="port-img"><img src="images/commercial_space.png" alt="Commercial fitout project"></div>
+                    <span class="port-name">COMMERCIAL FIT-OUT</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section id="contact" class="page">
+        <div class="page-splash">
+            <div class="splash-text">
+                <div class="splash-word">GET IN</div>
+                <div class="splash-word">TOUCH</div>
+            </div>
+            <div class="splash-bottom-row">
+                <span>LET'S</span>
+                <span>COLLABORATE</span>
+            </div>
+        </div>
+
+        <div class="contact-editorial">
+            <div class="contact-left">
+                <div class="statement-label">
+                    <span class="label-num">04</span>
+                    <span class="label-line"></span>
+                    <span class="label-text">CONTACT</span>
+                </div>
+                <h2 class="contact-heading reveal-split">Let's Discuss<br>Your <em>Spaces</em></h2>
+                <p class="contact-sub reveal-up">Feel free to reach us and one of our design consultants will be in touch with you soon.</p>
+
+                <form id="contact-form" class="editorial-form">
+                    <div class="form-row">
+                        <input type="text" id="name-input" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="email" id="email-input" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="tel" id="phone-input" placeholder="Phone Number">
+                    </div>
+                    <div class="form-row">
+                        <textarea id="message-input" placeholder="Tell us about your project..." rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-editorial" id="submit-btn">
+                        <span>Send Message</span>
+                        <span class="submit-arrow">→</span>
+                    </button>
+                </form>
+            </div>
+            <div class="contact-right">
+                <div class="contact-block reveal-up">
+                    <span class="contact-block-label">ADDRESS</span>
+                    <p>Warehouse#S6<br>Industrial Area Second<br>Ras Al Khor — Dubai UAE</p>
+                </div>
+                <div class="contact-block reveal-up">
+                    <span class="contact-block-label">EMAIL</span>
+                    <p><a href="mailto:sales@karboninteriors.com">sales@karboninteriors.com</a></p>
+                </div>
+                <div class="contact-block reveal-up">
+                    <span class="contact-block-label">PHONE</span>
+                    <p><a href="tel:+97142254410">+971 4 225 4410</a><br><a href="tel:+971557753195">+971 55 775 3195</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="editorial-footer">
+        <div class="footer-top">
+            <div class="footer-logo-big">KARBON</div>
+        </div>
+        <div class="footer-bottom-bar">
+            <span>Warehouse#S6, Industrial Area Second, Ras Al Khor, Dubai, UAE</span>
+            <span>+971 55 775 3195 · sales@karboninteriors.com</span>
+            <span>&copy; 2026 Karbon Interiors</span>
+        </div>
+    </footer>
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/971557753195" class="whatsapp-float" id="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <!-- Toast -->
+    <div class="toast" id="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
